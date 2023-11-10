@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap");
+@import url("https://use.typekit.net/utk3exn.css");
+@import url("navigation.css");
+@import url("index.css");
+@import url("piercing.css");
+@import url("tattoo.css");
+@import url("contact.css");
+
+/*
+Cinque Donne Bold
+font-family: "cinque-donne", serif;
+font-weight: 700;
+font-style: normal;
+
+Cinque Donne Pro Regular
+font-family: "cinque-donne-pro", serif;
+font-weight: 400;
+font-style: normal;
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  background-color: #161616;
+  color: #f5ecde;
+  font-weight: normal;
+  font-weight: 400;
+}
+
+.h1-normal,
+h1.h1-normal,
+.h1-normal h1,
+.h2-normal,
+h2.h2-normal,
+.h2-normal h2,
+.h3-normal,
+h3.h3-normal,
+.h3-normal h3,
+.h4-normal,
+h4.h4-normal,
+.h4-normal h4,
+.h5-normal,
+h5.h5-normal,
+.h5-normal h5,
+.h6-normal,
+h6.h6-normal,
+.h6-normal h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #b99b64;
+}
+
+h1,
+.h1-normal,
+h1.h1-normal,
+.h1-normal h1,
+.h1-alt,
+h1.h1-alt,
+.h1-alt h1 {
+  font-size: 48px;
+  letter-spacing: 1px;
+}
+
+h2,
+.h2-normal,
+h2.h2-normal,
+.h2-normal h2,
+.h2-alt,
+h2.h2-alt,
+.h2-alt h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+h3,
+.h3-normal,
+h3.h3-normal,
+.h3-normal h3,
+.h3-alt,
+h3.h3-alt,
+.h3-alt h3 {
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+h3,
+.h3-spe,
+h3.h3-spe,
+.h3-spe h3,
+.h3-spe,
+h3.h3-spe,
+.h3-spe h3 {
+  font-size: 32px;
+  letter-spacing: 1px;
+  color: #161616;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h4,
+.h4-normal,
+h4.h4-normal,
+.h4-normal h4,
+.h4-alt,
+h4.h4-alt,
+.h4-alt h4 {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+h5,
+.h5-normal,
+h5.h5-normal,
+.h5-normal h5,
+.h5-alt,
+h5.h5-alt,
+.h5-alt h5 {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+h6,
+.h6-normal,
+h6.h6-normal,
+.h6-normal h6,
+.h6-alt,
+h6.h6-alt,
+.h6-alt h6 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.h1-alt,
+h1.h1-alt,
+.h1-alt h1,
+.h2-alt,
+h2.h2-alt,
+.h2-alt h2,
+.h3-alt,
+h3.h3-alt,
+.h3-alt h3,
+.h4-alt,
+h4.h4-alt,
+.h4-alt h4,
+.h5-alt,
+h5.h5-alt,
+.h5-alt h5,
+.h6-alt,
+h6.h6-alt,
+.h6-alt h6 {
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.designline {
+  width: 100%;
+  min-width: 320px;
+  height: 2px;
+  background: rgb(204, 161, 81);
+  background: linear-gradient(
+    0deg,
+    rgba(204, 161, 81, 1) 0%,
+    rgb(201, 175, 142) 50%,
+    rgba(204, 161, 81, 1) 100%
+  );
+}
+
+.mini-line {
+  display: flex;
+  background-color: #b99b64;
+  width: 60px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+footer div {
+  margin-top: 8px;
+  text-transform: none;
+}
+
+footer div a {
+  color: #b99b64;
+  letter-spacing: 0px;
+}
+
+footer div a:hover {
+  color: #ffffff;
+}
+
+footer img {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}

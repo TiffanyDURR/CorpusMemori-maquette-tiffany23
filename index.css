@@ -1,0 +1,504 @@
+.compIND-1 {
+  background: url(assets/home-image.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.compIND-4 {
+  background: url(assets/home-image2.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.social {
+  display: flex;
+  margin-top: 34px;
+}
+
+.social a {
+  margin-left: 12px;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b99b64;
+  font-size: 20px;
+}
+
+.social a:hover {
+  color: #ffffff;
+}
+
+.compIND-1 img {
+  width: 480px;
+  animation: zoom 2s infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.compIND-2 {
+  background: url(assets/back-paper.jpg);
+  background-attachment: fixed;
+}
+
+.compIND-2 .inner {
+  display: flex;
+  max-width: 1280px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.compIND-2 img {
+  width: 80px;
+  display: flex;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.compIND-2 .illustrations h6 {
+  margin-bottom: 12px;
+}
+
+.compIND-2 .illustrations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-right: 1px solid #b99b64;
+  padding-right: 36px;
+}
+
+.compIND-2 .infos,
+.compIND-2 .engagements {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.compIND-2 .infos {
+  max-width: 540px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.compIND-2 .infos h3 {
+  margin-bottom: 28px;
+  margin-top: 12px;
+}
+
+.compIND-2 .infos p {
+  line-height: 1.8;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.compIND-2 .infos p b {
+  font-weight: 600;
+  color: #b99b64;
+}
+
+/*
+.compIND-1 .inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compIND-1 .inner div {
+  margin-left: 32px;
+  margin-right: 32px;
+  text-align: center;
+  max-width: 576px;
+}
+
+.compIND-1 .inner div p {
+  line-height: 1.4;
+  margin-top: 16px;
+}
+
+.compIND-1 .inner h1 {
+  margin-bottom: 12px;
+}
+
+*/
+
+/*
+.compIND-2 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.compIND-2 .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.compIND-2 .icons div {
+  margin-left: 32px;
+  margin-right: 32px;
+  text-align: center;
+  height: 160px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  background-color: #070707;
+}
+
+.compIND-2 .icons div h6 {
+  margin-top: 12px;
+}
+
+.compIND-2 i {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+*/
+
+img.desktop-img {
+  display: flex;
+}
+
+img.mobile-img {
+  display: none;
+}
+
+.compIND-3 {
+  background-color: #070707;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.compIND-3 h3 {
+  text-align: center;
+}
+
+.advice img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.advices {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.advice {
+  width: 272px;
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: #161616;
+  padding: 24px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.advice img {
+  display: flex;
+  margin-top: 18px;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+}
+
+.advice p {
+  line-height: 2;
+  font-style: italic;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  height: 180px;
+  padding-right: 24px;
+  font-size: 16px;
+}
+
+.compIND-3 .link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.compIND-3 .link a {
+  background-color: #b99b64;
+  color: #ffffff;
+  display: flex;
+  width: 272px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.compIND-3 .link a:hover {
+  background-color: #ffffff;
+  color: #b99b64;
+}
+
+.compIND-3 i {
+  font-size: 24px;
+  color: #b99b64;
+  margin-bottom: 12px;
+}
+
+.compIND-4 .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.compIND-4 .inner p,
+.compIND-4 .inner a {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.compIND-4 .inner p {
+  line-height: 1.6;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.compIND-4 .inner a {
+  width: 272px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #b99b64;
+  color: #ffffff;
+}
+
+.compIND-4 .inner a:hover {
+  background-color: #ffffff;
+  color: #b99b64;
+}
+
+.compIND-4 .icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  border-top: 1px solid #b99b64;
+  padding-top: 40px;
+}
+
+.compIND-4 .icons div {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.compIND-4 .icons div i {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.compIND-4 .icons h6 {
+  margin-bottom: 16px;
+}
+
+.compIND-4 .icons p {
+  line-height: 1.8;
+}
+
+.compIND-4 .icons .links a {
+  margin-left: 6px;
+  margin-right: 6px;
+  color: #ffffff;
+}
+
+.compIND-4 .icons .links a:hover {
+  color: #b99b64;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .compIND-1 {
+    background: url(assets/home-image-768.jpg);
+    background-position: center center;
+  }
+
+  .compIND-4 {
+    background: url(assets/home-image2-768.jpg);
+    background-position: center center;
+  }
+
+  .compIND-1 img {
+    width: 74%;
+    max-width: 360px;
+  }
+
+  .compIND-1,
+  .compIND-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .compIND-2 .inner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .compIND-2 .illustrations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right: 0px solid #b99b64;
+    padding-right: 0px;
+    margin-bottom: 32px;
+    text-align: center;
+    border-bottom: 1px solid #b99b64;
+    padding-bottom: 12px;
+    width: 80%;
+  }
+
+  .compIND-3 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .compIND-2 .illustrations img {
+    width: 40px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .compIND-2 .illustrations div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  img.desktop-img {
+    display: none;
+  }
+
+  img.mobile-img {
+    display: flex;
+  }
+
+  .compIND-3 .link {
+    margin-top: 0px;
+  }
+
+  .compIND-4 .inner {
+    flex-direction: column;
+  }
+
+  .compIND-4 .inner p {
+    line-height: 1.6;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+
+  .compIND-4 .icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    border-top: 0px solid #b99b64;
+    padding-top: 24px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  .compIND-1 {
+    background: url(assets/home-image-320.jpg);
+    background-position: center center;
+  }
+
+  .compIND-4 {
+    background: url(assets/home-image2-320.jpg);
+    background-position: center center;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 998px) {
+  .compIND-4 {
+    background: url(assets/home-image2-320.jpg);
+    background-position: center center;
+  }
+}
+
+@media only screen and (min-width: 999px) and (max-width: 1600px) {
+  .compIND-1 {
+    background: url(assets/home-image-1600.jpg);
+    background-position: center center;
+  }
+
+  .compIND-4 {
+    background: url(assets/home-image2-1600.jpg);
+    background-position: center center;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .advice {
+    width: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: #161616;
+    padding: 24px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+  }
+}
